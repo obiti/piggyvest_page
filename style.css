@@ -1,0 +1,110 @@
+.logo {
+  padding-left: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  align-items: centre
+}
+
+body {
+    background-color: #062863;
+    margin: 5px 5px;
+    font-family: sans-serif;
+    line-height: 2.0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     }
+
+   section {
+     background-color: white;
+     height: auto;
+     border-radius: 20px 20px 20px 0px;
+     line-height: 2.0;
+   }  
+  
+    button {
+      margin: 40px;
+      width: 80%;
+      line-height: 60px;
+      color: white;
+      background-color: navy;
+      margin-top: 10px;
+      border-radius: 10px 10px 10px 0px;
+    }
+
+    .bgDesign {
+        position: fixed;
+      }
+      
+      .blueImg {
+        position: fixed;
+        width: 207px;
+        left: -75px;
+        top: -73px; 
+      }
+      
+      .pinkImg {
+        position: fixed;
+        top: 37em;
+        left: -60px;
+        width: 210px;
+      }
+      
+      .purpleImg {
+        position: fixed;
+        width: 207px;
+        left: 73rem;
+        bottom: -10px;
+      }
+      
+      .greenImg {
+        position: fixed;
+        width: 176px;
+        left: 75rem;
+        z-index: -5;
+      }
+   
+      h2{
+        color: navy;
+        text-align: center;
+      }
+
+      h3 {
+        color: grey;
+        font-size: 3.7mm;
+        margin-top: -10px;
+        text-align: center;
+      }
+ 
+      .details{
+          background-color: #edf2f7;
+          color: lightgray
+          text-align: auto;
+          width: 350px;
+          height: 60px;
+          border-style: hidden;
+          margin: 40px 40px;
+          margin-top: 5px ;
+          margin-bottom: 5px;
+      }
+      
+      input[name="select"]{
+        display: block;
+        width: 80%;
+        height: 2.3rem;
+        background-color: #edf2f7;
+        margin-top: -5px;
+        margin-left: 40px;
+        overflow-y: auto;
+        text-align: center;
+      }
+
+      input:: {
+        -webkit: calendar-picker-indicator; 
+          opacity: 100;
+      }
+      
+      @media screen and (max-width: 500px) {
+          visibility: hidden;
+        }
+    
